@@ -1,11 +1,11 @@
-import Category from '../../components/Categories';
-import Comments from '../../components/Comments';
-import ProductList from '../../components/ProductList';
-import Banner from '../../layouts/Banner';
-import ListBrand from '../../layouts/Banner/ListBrand';
-import Footer from '../../layouts/Footer';
-import Header from '../../layouts/Navbar';
-import TopHeader from '../../layouts/TopHeader';
+import Category from '../../components/Categories'
+import Comments from '../../components/Comments'
+import ProductList from '../../components/ProductList'
+import Banner from '../../layouts/Banner'
+import ListBrand from '../../layouts/Banner/ListBrand'
+import Footer from '../../layouts/Footer'
+import Header from '../../layouts/Navbar'
+import TopHeader from '../../layouts/TopHeader'
 
 function HomePage() {
     return (
@@ -21,7 +21,7 @@ function HomePage() {
             <Comments />
             <Footer />
         </>
-    );
+    )
 }
 
-export default HomePage;
+export default HomePage

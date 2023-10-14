@@ -1,20 +1,19 @@
-import ButtonPrimary from '../../components/ButtonPrimary';
-import DataShow from '../../components/DataShow';
-import couple from '../../assets/banner/couple-2.jpeg';
-import bannerIconLarge from '../../assets/banner/banner-icon-large.svg';
-import bannerIconSmall from '../../assets/banner/banner-icon-small.svg';
+import bannerIconLarge from '../../assets/banner/banner-icon-large.svg'
+import bannerIconSmall from '../../assets/banner/banner-icon-small.svg'
+import couple from '../../assets/banner/couple-2.jpeg'
+import ButtonPrimary from '../../components/ButtonPrimary'
+import DataShow from '../../components/DataShow'
 
 function Banner() {
     return (
-        <div className="md:flex bg-F2F0F1 pt-10">
+        <div className="md:flex md:flex-col lg:flex-row bg-F2F0F1 pt-10">
             <div className="flex-1 mx-lg mt-lg mt-md">
                 <p className="font-bold text-4xl mb-5 mx-sm md:leading-[64px] md:text-[64px] md:font-bold md:w-[577px]">
                     FIND CLOTHES THAT MATCHES YOUR STYLE
                 </p>
                 <p className="mx-sm md:mt-8">
-                    Browse through our diverse range of meticulously crafted
-                    garments, designed to bring out your individuality and cater
-                    to your sense of style.
+                    Browse through our diverse range of meticulously crafted garments, designed to bring out your
+                    individuality and cater to your sense of style.
                 </p>
                 <ButtonPrimary className="w-full my-6 md:mt-8 md:mb-12" />
                 <div className="flex mx-14 gap-13 flex-wrap justify-center md:items-center">
@@ -54,7 +53,7 @@ function Banner() {
                 />
             </div>
         </div>
-    );
+    )
 }
 
-export default Banner;
+export default Banner

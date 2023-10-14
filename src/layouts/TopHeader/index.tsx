@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
-import close from '../../assets/icons/close.svg';
+import { Link } from 'react-router-dom'
+import close from '../../assets/icons/close.svg'
 
 function TopHeader() {
     return (
@@ -8,7 +8,8 @@ function TopHeader() {
                 Sign up and get 20% off to your first order.
                 <Link
                     to="/sign-up"
-                    className="font-medium ml-1 underline">
+                    className="font-medium ml-1 underline"
+                >
                     Sign Up Now
                 </Link>
             </p>
@@ -18,7 +19,7 @@ function TopHeader() {
                 className="hidden md:inline-block absolute right-20"
             />
         </div>
-    );
+    )
 }
 
-export default TopHeader;
+export default TopHeader

@@ -1,11 +1,11 @@
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 
-import Logo from '../../components/Logo';
-import menu from '../../assets/icons/menu.svg';
-import search from '../../assets/icons/search.svg';
-import cart from '../../assets/icons/cart.svg';
-import user from '../../assets/icons/user.svg';
-import dropDown from '../../assets/icons/drop-down.svg';
+import cart from '../../assets/icons/cart.svg'
+import dropDown from '../../assets/icons/drop-down.svg'
+import menu from '../../assets/icons/menu.svg'
+import search from '../../assets/icons/search.svg'
+import user from '../../assets/icons/user.svg'
+import Logo from '../../components/Logo'
 
 function Header() {
     return (
@@ -20,7 +20,8 @@ function Header() {
                 <nav className="hidden md:flex gap-6 items-center">
                     <Link
                         to="/"
-                        className="flex">
+                        className="flex"
+                    >
                         Shop
                         <img
                             src={dropDown}
@@ -68,7 +69,7 @@ function Header() {
                 />
             </div>
         </div>
-    );
+    )
 }
 
-export default Header;
+export default Header

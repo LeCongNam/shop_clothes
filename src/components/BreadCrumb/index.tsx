@@ -12,7 +12,7 @@ function BreadCrumb() {
     }, [])
 
     return (
-        <div className="md:mx-[100px] mx-4 flex gap-2">
+        <div className="md:mx-[100px] mx-4 flex gap-2 mb-5 ">
             {breadcrumbs.map((data, index) => {
                 return (
                     <div

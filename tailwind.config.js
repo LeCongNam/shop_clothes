@@ -13,8 +13,9 @@ export default {
             colors: {
                 FFC633: '#FFC633',
                 '01AB31': '#01AB31',
+                pink10: 'rgba(255, 51, 51, 0.10)',
             },
         },
     },
     plugins: [],
-};
+}

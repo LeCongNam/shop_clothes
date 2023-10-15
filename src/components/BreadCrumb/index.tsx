@@ -6,7 +6,6 @@ import useBreadcrumbs from 'use-react-router-breadcrumbs'
 function BreadCrumb() {
     const breadcrumbs = useBreadcrumbs()
     const [breadcrumbsLength, setBreadcrumbsLength] = useState<number>(0)
-
     useEffect(() => {
         setBreadcrumbsLength(breadcrumbs.length)
     }, [])
@@ -20,7 +19,7 @@ function BreadCrumb() {
                         className="flex gap-1 justify-center items-center"
                     >
                         {data.breadcrumb}
-                        {index < breadcrumbsLength - 1 ? <FontAwesomeIcon icon={faAngleRight} /> : undefined}
+                        {index < breadcrumbsLength - 1 ? <FontAwesomeIcon icon={faAngleRight} /> : undefined} 
                     </div>
                 )
             })}
